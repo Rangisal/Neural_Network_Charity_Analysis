@@ -31,24 +31,24 @@ Deliverable 4: A Written Report on the Neural Network Model (README.md)
 # Results:
 
 ## Data Preprocessing
-What variable(s) are considered the target(s) for your model?
-The variable IS_SUCCESSFUL should be the target variable as it contains the binary data 
+- What variable(s) are considered the target(s) for your model?
+  The variable IS_SUCCESSFUL should be the target variable as it contains the binary data 
 
-What variable(s) are considered to be the features for your model?
-APPLICATION_TYPE, AFFILIATION_TYPE, USE_CASE, CLASSIFICATION, ORGANISATION, STATUS,INCOME_AMT_, SPECIAL_CONSIDERATION, ASK_AMT
+- What variable(s) are considered to be the features for your model?
+  APPLICATION_TYPE, AFFILIATION_TYPE, USE_CASE, CLASSIFICATION, ORGANISATION, STATUS,INCOME_AMT_, SPECIAL_CONSIDERATION, ASK_AMT
 
-What variable(s) are neither targets nor features, and should be removed from the input data?
-The Variables EIN and Name should be removed as they carries identification information
+- What variable(s) are neither targets nor features, and should be removed from the input data?
+  The Variables EIN and Name should be removed as they carries identification information
 
 ## Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions have been selected for the neural network model, and why?
-The model is made with 2 hiden layers with 80 and 30 neurons.The output layer is made of a unique neuron as it is a binary classification. ReLu function has been used to speed up the model with sigmoid function ,binary_crossentropy and adam functions.
+- How many neurons, layers, and activation functions have been selected for the neural network model, and why?
+  The model is made with 2 hiden layers with 80 and 30 neurons.The output layer is made of a unique neuron as it is a binary classification. ReLu function has been   used to speed up the model with sigmoid function ,binary_crossentropy and adam functions.
 
-Were the analysis able to achieve the target model performance?
-The model accuracy is under 75% and this is not a satisfied performance.
+- Were the analysis able to achieve the target model performance?
+  The model accuracy is under 75% and this is not a satisfied performance.
 
-What steps have been taken to try and increase model performance?
-The bucketing have been applied to the feature ASK_ME . Also the number of neurons have been increased on one of the hidden layers and used model with 3 hidden layers. 
+- What steps have been taken to try and increase model performance?
+  The bucketing have been applied to the feature ASK_ME . Also the number of neurons have been increased on one of the hidden layers and used model with 3 hidden     layers. 
 
 
 # Summary: 
