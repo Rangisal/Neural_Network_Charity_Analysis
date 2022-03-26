@@ -54,3 +54,6 @@ Deliverable 4: A Written Report on the Neural Network Model (README.md)
 # Summary: 
 The deep llearning neural network model did not reach the target of 75% accuracy. The model is underperforming. As the output is binary the analysis could be done with random forest model and compare and anayse the performance. 
 
+![image](https://user-images.githubusercontent.com/93173498/160222269-cbfbcd47-3c1c-4ab2-a390-c880dbf2a5db.png)
+
+
