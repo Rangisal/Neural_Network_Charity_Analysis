@@ -41,11 +41,14 @@ What variable(s) are neither targets nor features, and should be removed from th
 The Variables EIN and Name should be removed as they carries identification information
 
 ## Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
+How many neurons, layers, and activation functions have been selected for the neural network model, and why?
+The model is made with 2 hiden layers with 80 and 30 neurons.The output layer is made of a unique neuron as it is a binary classification. ReLu function has been used to speed up the model with sigmoid function ,binary_crossentropy and adam functions.
 
-Were you able to achieve the target model performance?
+Were the analysis able to achieve the target model performance?
+The model accuracy is under 75% and this is not a satisfied performance.
 
-What steps did you take to try and increase model performance?
+What steps have been taken to try and increase model performance?
+The bucketing have been applied to the feature ASK_ME . Also the number of neurons have been increased on one of the hidden layers and used model with 3 hidden layers. 
 
 
 # Summary: 
