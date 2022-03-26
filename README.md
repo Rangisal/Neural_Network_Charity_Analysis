@@ -32,12 +32,20 @@ Deliverable 4: A Written Report on the Neural Network Model (README.md)
 
 ## Data Preprocessing
 What variable(s) are considered the target(s) for your model?
+The variable IS_SUCCESSFUL should be the target variable as it contains the binary data 
+
 What variable(s) are considered to be the features for your model?
+APPLICATION_TYPE, AFFILIATION_TYPE, USE_CASE, CLASSIFICATION, ORGANISATION, STATUS,INCOME_AMT_, SPECIAL_CONSIDERATION, ASK_AMT
+
 What variable(s) are neither targets nor features, and should be removed from the input data?
+The Variables EIN and Name should be removed as they carries identification information
 
 ## Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
+
 Were you able to achieve the target model performance?
+
 What steps did you take to try and increase model performance?
+
 
 # Summary: 
